@@ -34,13 +34,12 @@ header{
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: url('../assets/img/samall.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-.header--tittle--container{
+.header--title--container{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -50,29 +49,38 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     align-self: center;
 }
 
-.header--tittle--container h1{
-    font-size: 2.4rem;
+.header--title--container h1{
+    font-size: 2.8rem;
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--tittle--container p{
+.header--title--container .p1{
     margin-top: 5px;
-    font-size: 1.4rem;
+    font-size: 1.9rem;
     font-weight: 500;
     line-height: 1.8rem;
-    color: var(--just-red);
+    color: rgba(226, 223, 223, 0.801);
 }
 
+.header--title--container .p2{
+    margin-top: 5px;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+
 /*Boton Flotante*/
-.header--tittle--container .header--button{
+.header--title--container .header--button{
     position: absolute;
     left: calc(50% - 118px);
     top: 270px;
     display: block;
     margin-top: 35px;
-    padding: 10px;
+    padding: 15px;
     width: 229px;
     height: 48px;
     background-color: var(--off-white);
@@ -88,19 +96,91 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 .header--button span{
     display: inline-block;
-    width: 24px;
-    height: 24px;
+    width: 15px;
+    height: 15px;
     margin-left: 15px;
-    background-image: url('../assets/icons/GO.svg');
+    background-image: url('../assets/icons/down.svg');
+    background-size: cover;
 }
 
-.header--tittle--container .box{
-    width: 15rem;
-    height: 18rem;
+.header--title--container .box{
+    width: 25rem;
+    height: 8rem;
+    margin-top: 35px;
     margin-bottom: 10px;
-    background: url('../assets/img/yo.jpg') no-repeat;
+    background: url('../assets/img/logo.png') no-repeat;
     background-size: cover;
     position: relative;
     flex-flow: row;
     border-radius: 5px;
+    margin-bottom: 50px;
 }
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-category-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.main-category-container-title{
+    width: 90%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+.main-category-container .backgroundImg{
+    width: 250px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-image: url('../assets/img/categoria1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+
+}
+
+.main-category-container h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    height: 2.6rem;
+    color: var(--just-black);
+}
+
+.main-category-container p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    height: 1.6rem;
+    color: #757575;
+}
+
+
+.main-currency-table{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+}
+
+.main-currency-table .currency-table--title{
+    text-decoration: none;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+}   
