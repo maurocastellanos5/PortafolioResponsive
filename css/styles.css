@@ -1,0 +1,23 @@
+/* 
+1. Posicionamiento
+2. Box Model
+3. Tipografía
+4. Visual
+5. Otros
+*/
+
+:root{
+    /*Variables de color*/
+}
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
