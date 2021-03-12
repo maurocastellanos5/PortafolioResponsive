@@ -314,10 +314,167 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     width: 100%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background-color: rgba(163, 163, 163, 0.1);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
+
+.product-detail-card .up{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/trending-up.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+
+.product-detail-card .camino{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/ruta.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail-card .diseño{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/diseno-web.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.product-detail-card .precio{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url('../assets/icons/precio.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url('../assets/img/conoce.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 200px;
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
+}
+
+.main-modelos-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.modelos--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.modelos--title h2{
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-black);
+}
+
+.modelos-container--card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0 ;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.modelo{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 5px;
+    left: calc(50% - 60px);
+    top: -15px;
+    font-size: 1.6rem;
+    background-color: red;
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
+.modelos-card--title{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--just-black);
+}  
+
+/*aqui va la foto del modelo*/
+
+.modelos-card--price{
+    font-size: 1.2rem;
+    color: var(--just-black);
+}
+
+.modelos-card--ca{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: #faf8f7;
+    border: 2px solid #434343;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-black);
+}
+
